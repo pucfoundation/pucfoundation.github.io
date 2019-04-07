@@ -1,0 +1,17 @@
+body{
+  background-image: url(img/background.png);
+}
+.all {text-align:center;
+
+
+}
+
+#ris{
+  opacity: 0.8;
+background-color: white;
+width: 550px;
+height: 550px;
+  margin: auto;
+  border-radius: 40px;
+
+}
