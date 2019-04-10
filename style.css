@@ -2,13 +2,12 @@ body{
   background-image: url(img/background.png);
 }
 .all {
-  position: relative;
-margin: auto;
+
 
 }
 
-#tv{
-background: rgba(255,255, 255, 0.8);
+.tv{
+  z-index: 2;
 width: 1100px;
 height: 700px;
   margin: auto;
@@ -16,14 +15,14 @@ height: 700px;
 
 }
 
-#tv img{
+.tv img{
+  z-index: 2;
   margin: auto;
   margin-top: 10px;
 }
 
 #kanal{
   opacity: 0.1;
-  background-color: blue;
 border-radius: 6px;
   width: 134px;
   height: 255px;
@@ -31,12 +30,10 @@ border-radius: 6px;
   margin-left: 850px;
 }
 #text{
-
-  position: fixed;
-  bottom: 0;
+  z-index: 3;
+height: 40px;
   text-align: center;
-  left: 0;
-  right: 0;
+margin-top: 280px;
 
 }
 #text h2{
@@ -46,7 +43,7 @@ background-color:rgba(255,255,255,0.8)}
   font-size: 30px;
 }
 #b{
-  font-size: 33px;
+  font-size: 38px;
   color: rgba(255, 255, 255, 0);
 }
 #b:hover{
